@@ -1,0 +1,9 @@
+if game.placeId == 2809202155 then -- Your Bizarre Adventure
+   loadstring(game:HttpGet("https://pastebin.com/raw/5SB79HJe", true))()
+   
+elseif game.placeId == 920587237 then --Adopt Me
+   loadstring(game:HttpGet("https://pastebin.com/raw/uMvhFNy7", true))()
+   
+else
+game.Players.LocalPlayer:Kick("Game not supported")
+end
